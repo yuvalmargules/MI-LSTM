@@ -17,7 +17,7 @@ In order to calculate those variables within the LSTM cell, we use Attention Mec
     <li> Neg: N negative correlated comapnies </li>
     <li> Idx: The index(e.g S&P500) </li>
   </ul>
-  All windows of size T belong to the inputs above will go first through the LSTMLayer.class which shared weights(only one LSTM layer, not an LSTM for each one). Then, it will go through the MI_Cell.class where the Attention is applied. After that, we get the outputs for each day in the window and we apply Dual Stage Attention AttentionLayer.class for getting the desired output of size (1, hidden_size). At last, we go through 2 fully connected neural networks using Tanh as an activation function to get the final prediction.
+  All windows of size T belong to the inputs above will go first through the LSTMLayer.class which shared weights(only one LSTM layer, not an LSTM for each one). Then, it will go through the MI_Cell.class where the Attention is applied. After that, we get the outputs for each day in the window and we apply Dual Stage Attention AttentionLayer.class for getting the desired output of size (1, hidden_size). At last, we go through 2 fully connected neural networks using Tanh as an activation function to get the final prediction. <br><br>
 </div>
 
 <div>
