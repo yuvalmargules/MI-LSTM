@@ -22,7 +22,7 @@ In order to calculate those variables within the LSTM cell, we use Attention Mec
 
 <div>
 Example from results:
-  <img width="1034" alt="Corr" src="https://user-images.githubusercontent.com/63664364/111044143-5fd4da80-844f-11eb-89b6-f6959c25203c.png" width=500>
+  <img width="1034" alt="Corr" src="https://user-images.githubusercontent.com/63664364/111044143-5fd4da80-844f-11eb-89b6-f6959c25203c.png" width=400>
   <img width="1283" alt="Res" src="https://user-images.githubusercontent.com/63664364/111044156-67947f00-844f-11eb-9047-f28ae2afa090.png" width=500>
 
 </div>
