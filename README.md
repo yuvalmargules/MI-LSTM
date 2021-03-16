@@ -10,7 +10,7 @@ In order to calculate those variables within the LSTM cell, we use Attention Mec
 <img src="https://github.com/yuvalmargules/MI-LSTM/blob/master/MI-LSTM.jpg" width=600>
 
 <div>
-  In the picture above we see the whole process of the model we built. Firstly, for window of size T, we define:
+  In the picture above we see the whole process of the model we built. Firstly, for a window of size T, we define:
   <ul>
     <li> Self: The company we want to predict </li>
     <li> Pos: N positive correlated comapnies </li>
